@@ -71,9 +71,9 @@ for num, content replay.netstream.items():
         print("\tShortname: %s" % shortname)
         print("\tPropertys: %s" % content['data']
 ```
-This will print all Frames with their actors and the Propertys of each actor (Note: You may want to pipe that output since a frame usually lasts 0.04 seconds and a match takes 5 Minutes = 300 seconds = 7500 frames with up to a few dozen actors per frame, and each actor with a handful of propertys. Thats alot of data).
+This will print all Frames with their actors and the Propertys of each actor (Note: You may want to pipe that output since a frame usually lasts 0.04 seconds and a match takes 5 Minutes = 300 seconds = 7500 frames with up to a few dozen actors per frame, and each actor with a handful of propertys. Thats a lot of data).
 
-At the time of writing this I have not documented the produced dictionary structure. Therefor it is recommended to simply write the parsed replay in a human readable form on disk and work from there.
+At the time of writing this I have not documented the produced dictionary structure. Therefore, it is recommended to simply write the parsed replay in a human readable form on disk and work from there.
 ```python
 from pyrope import Replay
 
